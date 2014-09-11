@@ -1,0 +1,19 @@
+{
+  "name": "grammarjs-semver",
+  "version": "0.0.1",
+  "description": "Semver Grammar",
+  "keywords": [
+    "peg",
+    "grammar",
+    "semver"
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "grammarjs-grammar": "~0.3.x",
+    "grammarjs-punctuation": "*"
+  },
+  "devDependencies": {
+    "grammarjs-recursive-parser": "~0.3.x",
+    "mocha": "^1.21.4"
+  }
+}
