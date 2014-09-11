@@ -81,4 +81,5 @@ rule('operator')
   .match('<=')
   .match('<');
 
-rule('release'); // TODO
+rule('release')
+  .match(/[\w-_]+/);
